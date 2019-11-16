@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:background="#006400" >
+    
+		<Button
+      android:id="@+id/compose"
+      android:layout_width="188dip"
+      android:layout_height="50dip"
+      android:enabled="true"
+      android:text="Compose"
+      android:textColor="#ffffff" />
+		
+		<Button
+      android:id="@+id/inbox"
+      android:layout_width="188dip"
+      android:layout_height="50dip"
+      android:enabled="true"
+      android:text="Inbox"
+      android:textColor="#ffffff" />
+		
+		<Button
+      android:id="@+id/pref"
+      android:layout_width="188dip"
+      android:layout_height="50dip"
+      android:enabled="true"
+      android:text="Preference"
+      android:textColor="#ffffff" />
+		
+		
+		<Button
+      android:id="@+id/exit"
+      android:layout_width="188dip"
+      android:layout_height="50dip"
+      android:enabled="true"
+      android:text="Exit"
+      android:textColor="#ffffff" />
+</LinearLayout>
