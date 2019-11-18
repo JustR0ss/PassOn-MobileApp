@@ -37,7 +37,7 @@ public class MenuActivity extends Activity{
 		String mPhoneNumber = tMgr.getLine1Number();
 
 		String[] args = new String[1];
-		args[0] = "http://54.76.199.8:8080/PassOn/services/Main/updateLocation?longi="+String.valueOf(gl.getLng())+"&lat="+String.valueOf(gl.getLat())+"&number="+mPhoneNumber;
+		args[0] = "http://<IP:Port>/PassOn/services/Main/updateLocation?longi="+String.valueOf(gl.getLng())+"&lat="+String.valueOf(gl.getLat())+"&number="+mPhoneNumber;
 		System.out.println(args[0]);
 		if(gl.getLng()!=0.0&&gl.getLat()!=0.00){
 			new updateLocationClass().execute(args[0]);
